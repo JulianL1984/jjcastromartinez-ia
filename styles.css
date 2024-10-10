@@ -52,10 +52,7 @@ footer {
 /* Estilos para pantallas con ancho máximo de 768px (celulares y tablets) */
 @media (max-width: 768px) {
     .cabecera{
-        display: flex;
-        text-align: center;
         width: 100%;
-
     }
 
     .imagenes {
