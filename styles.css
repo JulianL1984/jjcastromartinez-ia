@@ -7,9 +7,10 @@ body {
 
 .cabecera {
     display: flex;
-    text-align: center;
+    text-align: center; /* Asegura que el texto esté centrado */
     color: white;
-    background-color: #333;
+    background-color: #333; /* Color de fondo */
+    width: 100%; /* Ocupa el 100% del ancho por defecto */
 }
 
 .imagenes {
@@ -34,7 +35,7 @@ body {
 
 .descripcion {
     display: flex;
-    justify-content: center; /* Asegura que los elementos dentro se centren horizontalmente */
+    justify-content: center; /* Centra los elementos dentro de .descripcion */
     align-items: center; /* Asegura que se centren verticalmente */
     text-align: center; /* Centra el texto dentro de la descripción */
     padding: 10px; /* Puedes ajustar este padding según sea necesario */
@@ -57,8 +58,10 @@ footer {
         font-weight: 100;
         gap: 2%;
         width: 100%; /* Asegura que ocupe el 100% del ancho */
+        background-color: #333; /* Color de fondo */
         margin: 0; /* Elimina el margen para que esté en el borde */
         padding: 0; /* Ajusta el padding si es necesario */
+        text-align: center; /* Asegura que el texto esté centrado */
     }
 
     .imagenes {
