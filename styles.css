@@ -64,7 +64,7 @@ footer {
 
     .descripcion{
         flex-direction: column;
-        margin: 10px 0;
+        margin: 10px 10px;
     }
 
     footer {
