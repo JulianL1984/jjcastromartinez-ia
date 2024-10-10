@@ -54,7 +54,7 @@ footer {
     .cabecera{
         display: flex;
         text-align: center;
-        padding: 5px;
+        width: 100%;
 
     }
 
