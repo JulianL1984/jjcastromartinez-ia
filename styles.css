@@ -62,6 +62,11 @@ footer {
         margin: 10px 0;
     }
 
+    .descripcion{
+        width: 80%;
+        margin: 10px 0;
+    }
+
     footer {
         position: relative; /* Cambiamos la posición para que el footer esté debajo del contenido */
         padding: 20px;
