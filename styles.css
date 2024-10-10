@@ -63,7 +63,7 @@ footer {
     }
 
     .descripcion{
-        width: 80%;
+        flex-direction: column;
         margin: 10px 0;
     }
 
