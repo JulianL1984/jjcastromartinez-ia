@@ -7,10 +7,13 @@ body {
 
 .cabecera {
     display: flex;
-    text-align: center; /* Asegura que el texto esté centrado */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto dentro de la cabecera */
     color: white;
-    background-color: #333; /* Color de fondo */
-    width: 100%; /* Ocupa el 100% del ancho por defecto */
+    background-color: #333; /* Color de fondo por defecto */
+    width: 100%; /* Ocupa el 100% del ancho */
+    padding: 10px; /* Agrega padding si es necesario */
 }
 
 .imagenes {
@@ -54,37 +57,36 @@ footer {
 /* Estilos para pantallas con ancho máximo de 768px (celulares y tablets) */
 @media (max-width: 768px) {
     .cabecera {
-        flex-direction: column; 
+        flex-direction: column; /* Cambia a columna para dispositivos pequeños */
         font-weight: 100;
         gap: 2%;
-        width: 100%; /* Asegura que ocupe el 100% del ancho */
-        background-color: #333; /* Color de fondo */
-        margin: 0; /* Elimina el margen para que esté en el borde */
-        padding: 0; /* Ajusta el padding si es necesario */
+        background-color: #333; /* Mantiene el color de fondo */
+        margin: 0; /* Elimina márgenes */
+        padding: 10px; /* Agrega padding si es necesario */
         text-align: center; /* Asegura que el texto esté centrado */
     }
 
     .imagenes {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Cambia la dirección a columna */
+        align-items: center; /* Centra elementos */
         padding: 10px;
     }
 
     .imagen-container {
         width: 80%; /* Las imágenes ocuparán el 80% del ancho de la pantalla */
-        margin: 10px 0;
+        margin: 10px 0; /* Margen vertical */
     }
 
     .descripcion {
         display: flex;
         flex-direction: column; /* Mantiene la dirección vertical */
-        justify-content: center; /* Asegura que los elementos dentro se centren horizontalmente */
-        align-items: center; /* Asegura que se centren verticalmente */
-        margin: 10px 10px; /* Puedes ajustar este margen según sea necesario */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        margin: 10px 0; /* Ajusta margen vertical */
     }
 
     footer {
-        position: relative; /* Cambiamos la posición para que el footer esté debajo del contenido */
+        position: relative; /* Cambia a relativa para que esté debajo del contenido */
         padding: 20px;
     }
 }
