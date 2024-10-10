@@ -41,7 +41,7 @@ body {
     justify-content: center; /* Centra los elementos dentro de .descripcion */
     align-items: center; /* Asegura que se centren verticalmente */
     text-align: center; /* Centra el texto dentro de la descripción */
-    padding: 20px; /* Puedes ajustar este padding según sea necesario */
+    padding: 15px; /* Puedes ajustar este padding según sea necesario */
 }
 
 footer {
@@ -87,6 +87,6 @@ footer {
 
     footer {
         position: relative; /* Cambia a relativa para que esté debajo del contenido */
-        padding: 20px;
+        padding: 10px;
     }
 }
