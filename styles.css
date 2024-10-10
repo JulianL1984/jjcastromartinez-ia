@@ -34,8 +34,10 @@ body {
 
 .descripcion {
     display: flex;
-    text-align: center;
-    padding: auto;
+    justify-content: center; /* Asegura que los elementos dentro se centren horizontalmente */
+    align-items: center; /* Asegura que se centren verticalmente */
+    text-align: center; /* Centra el texto dentro de la descripción */
+    padding: 10px; /* Puedes ajustar este padding según sea necesario */
 }
 
 footer {
@@ -72,8 +74,10 @@ footer {
 
     .descripcion {
         display: flex;
-        flex-direction: column;
-        margin: 10px 10px;
+        flex-direction: column; /* Mantiene la dirección vertical */
+        justify-content: center; /* Asegura que los elementos dentro se centren horizontalmente */
+        align-items: center; /* Asegura que se centren verticalmente */
+        margin: 10px 10px; /* Puedes ajustar este margen según sea necesario */
     }
 
     footer {
