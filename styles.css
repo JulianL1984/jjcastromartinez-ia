@@ -41,6 +41,7 @@ body {
     justify-content: center; /* Centra los elementos dentro de .descripcion */
     align-items: center; /* Asegura que se centren verticalmente */
     text-align: center; /* Centra el texto dentro de la descripción */
+    font-size: 1rem;
     padding: 15px; /* Puedes ajustar este padding según sea necesario */
 }
 
